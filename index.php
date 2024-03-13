@@ -17,8 +17,7 @@ if (isset($_POST["submit"])) {
     $size_file = $_FILES["gambar"]["size"];
     $error = $_FILES["gambar"]["error"];
     $tmp_name = $_FILES["gambar"]["tmp_name"];
-    var_dump($tmp_name);
-    die;
+
 
     // cek error
     if ($error === 4) {
